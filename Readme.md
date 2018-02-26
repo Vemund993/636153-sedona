@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Алексей Нелюбов](https://up.htmlacademy.ru/htmlcss/20/user/636153).
-* Наставник: [Галина Борисова].
+* Наставник: [Галина Борисова](https://htmlacademy.ru/profile/galina_borisova).
 
 ---
 
