@@ -19,7 +19,7 @@
     </nav>	
   </header>
   <form class="select-form" method="post" action="https://echo.htmlacademy.ru">
-  <fieldset class="check">
+  <fieldset class="options">
   	<h3>Инфраструктура:</h3>
   	<ul>
   	  <li>
@@ -36,7 +36,7 @@
   	</li>
   	</ul>
   </fieldset>
-  <fieldset class="check">	
+  <fieldset class="options">	
     <h3>Тип Жилья:</h3>
     <ul>
   		<li>
@@ -56,10 +56,11 @@
   <fieldset class="limit">	
   	<h3>Стоимость в сутки(Р):</h3>
       <div class="range">
-        <label for="price">От 0 до 3000</label>
-  	    <button class="limit-btn limit-btn-min">Min</button>
+        <label for="price">От 0</label>
+  	    <input class="btn" value="Min">
   	    <span class="scale"><span class="bar"></span></span>
-  	    <button class="limit-btn limit-btn-max">Max</button>
+  	    <label for="price">До 3000</label>
+  	    <input class="btn" value="Max">
   	    <button class="btn">Показать</button>
   	  </div>  
   </fieldset>  
