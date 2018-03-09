@@ -50,9 +50,13 @@
   		</li>
   	</ul>
   	<h3>Стоимость в сутки(Р):</h3>
-      <label for="price">От 0 до 3000</label>
-  	  <input type="range" id="price" name="price" min="0" max="3000" step="1">
-  	  <button class="btn">Показать</button>
+      <div class="range">
+        <label for="price">От 0 до 3000</label>
+  	    <button class="limit-btn limit-btn-min">Min</button>
+  	    <span class="scale"><span class="bar"></span></span>
+  	    <button class="limit-btn limit-btn-max">Max</button>
+  	    <button class="btn">Показать</button>
+  	  </div>  
   </form>
   <section class="search">
   	<div class="search-title">
