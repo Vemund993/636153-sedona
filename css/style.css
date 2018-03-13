@@ -1,1 +1,24 @@
-﻿
+body {
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  font-weight: normal;
+  font-family: "PT Sans", "Arial", "sans-serif";
+  text-transform: uppercase;
+
+  background-color: #f2f2f2;
+  background-image: url("../img/background.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.navigation-link {
+
+
+}
+
+.header-image {
+  background-image: url("../img/gori.png");
+  backgroung-position: 0 0;
+  background-repeat: no-repeat;
+}
