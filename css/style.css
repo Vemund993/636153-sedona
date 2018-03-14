@@ -40,6 +40,17 @@ body {
   background-repeat: no-repeat;
 }
 
-.description-item .description-item-housing {
+.description-item.description-item-housing {
   background-image: url("../img/icon-1.svg");
+  background-repeat: no-repeat;
+}
+
+.description-item.description-item-food {
+  background-image: url("../img/icon-2.svg");
+  background-repeat: no-repeat;
+}
+
+.description-item.description-item-souveniers {
+  background-image: url("../img/icon-3.svg");
+  background-repeat: no-repeat;
 }
