@@ -11,6 +11,10 @@ body {
   background-color: #f2f2f2;
 }
 
+.main-wrapper {
+  background-color: #ffffff;
+}
+
 .site-navigation {
   list-style: none;
   background-color: #ffffff;
@@ -21,6 +25,31 @@ body {
   font-weight: bold;
   text-decoration: none;
   color: #000000;
+  line-height: 1.857;
+}
+
+.navigation-link:hover {
+  font-size: 14px;
+  font-family: inherit;
+  color: #81b3d2;
+  text-transform: uppercase;
+  line-height: 1.857;
+}
+
+.navigation-link:active {
+  font-size: 14px;
+  font-family: inherit;
+  color: #b2b2b2;
+  text-decoration: uppercase;
+  line-height: 1.857;
+}
+
+.navigation-link.navigation-link-catalog {
+  font-size: 14px;
+  font-family: inherit;
+  color: #766357;
+  text-decoration: none;
+  line-height: 1.857;
 }
 
 .advanced-list {
@@ -54,3 +83,60 @@ body {
   background-image: url("../img/icon-3.svg");
   background-repeat: no-repeat;
 }
+
+.search-form-calendar {
+  background-image: url("../img/calendar.svg");
+  background-repeat: no-repeat;
+}
+
+.appointment .button {
+  font-family: inherit;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #81b3d2;
+  border: none;
+}
+
+.appointment .button:hover {
+  background-color: #669ec0;
+}
+
+.appointment .button:active {
+  color: #88b6d1;
+  background-color: #5496bd;
+}
+
+ /*catalog*/
+
+.select-pool {
+  font-size: 14px;
+  font-family: inherit;
+  color: #ffffff;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.show {
+  font-size: 14px;
+  font-family: inherit;
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 1.5;
+  background-image: url("../img/show.png")
+  background-repeat: no-repeat;
+}
+
+.show:hover {
+  font-size: 14px;
+  font-family: inherit;
+  color: #000000;
+  text-transform: uppercase;
+  line-height: 1.5;
+  background-image: url("../img/show-focus.png");
+  background-repeat: no-repeat;
+}
+
+
