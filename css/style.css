@@ -34,3 +34,8 @@ body {
   text-transform: uppercase;
   line-height: 1;
 }
+
+.main-slogan {
+  background-image: url("..img/main-poster.png");
+  background-position: top center;
+}
