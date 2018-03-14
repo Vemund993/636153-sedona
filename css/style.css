@@ -1,9 +1,12 @@
 body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans Narrow", Arial, sans-serif;
   font-size: 14px;
-  line-height: 21px;
+  line-height: 24px;
+  font-weight: 700;
   color: #000000;
-  font-weight: normal;
-  font-family: "PT Sans", "Arial", "sans-serif";
   text-transform: uppercase;
 
   background-color: #f2f2f2;
@@ -12,13 +15,28 @@ body {
   background-repeat: no-repeat;
 }
 
+.site-navigation {
+  list-style: none;
+  background-color: #ffffff;
+}
+
 .navigation-link {
-
-
+  font-szie: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000000;
 }
 
-.header-image {
-  background-image: url("../img/gori.png");
-  backgroung-position: 0 0;
+.advanced-list {
+  background-image: url("../img/blue-1.jpg");
   background-repeat: no-repeat;
+
+  fot-size: 14px;
+  font-family: "PT Sans Narrow";
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 1;
 }
+
+
