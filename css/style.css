@@ -139,4 +139,65 @@ body {
   background-repeat: no-repeat;
 }
 
+.found {
+  font-size: 21px;
+  font-family: inherit;
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.238;
+}
 
+.found-sort {
+  font-size: 12px;
+  font-family: inherit;
+  color: #000000;
+  line-height: 1.5;
+}
+
+.sort-list {
+  list-style: none;
+  text-decoration: none;
+}
+
+.sort-item {
+  font-size: 12px;
+  font-weight: regular;
+  font-family: inherit;
+  color: #bcbcbc;
+  line-height: 1.5;
+  text-decoration: none;
+  border-bottom: 1px dashed #81b3d2;
+}
+
+.sort-item:hover {
+  font-size: 12px;
+  font-family: inherit;
+  color: #81b3d2;
+  line-height: 1.5;
+  text-decoration: none;
+  border-bottom: 1px dashed #81b3d2 ;
+}
+
+.sort-item:focus {
+  font-size: 12px;
+  font-family: inherit;
+  color: #81b3d2;
+  line-height: 1.5px;
+  text-decoration: none;
+  border-bottom: 0;
+}
+
+.sort-item:active {
+  font-size: 12px;
+  font-family: inherit;
+  color: #000000;
+  line-height: 1.5px;
+  text-decoration: none;
+  border-bottom: 0;
+}
+
+.btn-up {
+  background-image: url("../img/icon-up-dir.svg");
+  background-repeat: no-repeat;
+}
