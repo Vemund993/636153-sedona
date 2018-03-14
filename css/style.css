@@ -32,11 +32,8 @@ body {
   background-repeat: no-repeat;
 
   fot-size: 14px;
-  font-family: "PT Sans Narrow";
+  font-family: inherit;
   color: #ffffff;
   text-transform: uppercase;
-  font-weight: bold;
   line-height: 1;
 }
-
-
