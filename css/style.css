@@ -197,10 +197,12 @@ body {
   border-bottom: 0;
 }
 
+/* Верно ли так делать?
 .btn-up {
   background-image: url("../img/icon-up-dir.svg");
   background-repeat: no-repeat;
   font-size: 0;
 }
+ */
 
 
