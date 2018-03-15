@@ -277,3 +277,20 @@ body {
   color: #857871;
   backgorund-color: #503e33;
 }
+
+.hotel-item-link {
+  font-size: 21px;
+  font-family: inherit;
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.hotel-item-link:hover {
+  color: #81b3d2;
+}
+
+.hotel-item-link:active {
+  color: #b2b2b2;
+}
