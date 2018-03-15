@@ -253,3 +253,27 @@ body {
   color: #88b6d1;
   background-color: #5496bd;
 }
+
+.btn-order {
+  font-size: 14px;
+  font-family: inherit;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 27px;
+  text-decoration: none;
+
+  background-color: #766357;
+  width: 142px;
+  height: 27px;
+}
+
+.btn-order:hover {
+  color: #ffffff;
+  background-color: #604e43;
+}
+
+.btn-order:active {
+  color: #857871;
+  backgorund-color: #503e33;
+}
