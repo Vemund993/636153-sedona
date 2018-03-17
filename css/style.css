@@ -266,6 +266,7 @@ body {
   text-transform: uppercase;
   line-height: 27px;
   text-decoration: none;
+  text-align: center;
 
   background-color: #81b3d2;
   width: 110px;
@@ -282,7 +283,7 @@ body {
   background-color: #5496bd;
 }
 
-.btn-order {
+.hotel-order {
   font-size: 14px;
   font-family: inherit;
   color: #ffffff;
@@ -290,18 +291,19 @@ body {
   text-transform: uppercase;
   line-height: 27px;
   text-decoration: none;
+  text-align: center;
 
   background-color: #766357;
   width: 142px;
   height: 27px;
 }
 
-.btn-order:hover {
+.hotel-order:hover {
   color: #ffffff;
   background-color: #604e43;
 }
 
-.btn-order:active {
+.hotel-order:active {
   color: #857871;
   backgorund-color: #503e33;
 }
