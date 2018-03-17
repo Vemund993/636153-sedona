@@ -21,6 +21,7 @@ body {
 
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .navigation-link {
@@ -29,6 +30,10 @@ body {
   text-decoration: none;
   color: #000000;
   line-height: 1.857;
+
+  display: flex;
+  margin-right: 200px;
+  text-align: center;
 }
 
 .navigation-link:hover {
