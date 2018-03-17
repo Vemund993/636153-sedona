@@ -9,10 +9,14 @@ body {
   text-transform: uppercase;
 
   background-color: #f2f2f2;
+  poition: relative;
 }
 
 .main-wrapper {
   background-color: #ffffff;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .site-navigation {
@@ -20,8 +24,7 @@ body {
   background-color: #ffffff;
 
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  justify-content: : space-between;
 }
 
 .navigation-link {
@@ -116,6 +119,20 @@ body {
   color: #88b6d1;
   background-color: #5496bd;
 }
+
+.visually-hidden:not(:focus):not(:active),
+ input[type="checkbox"].visually-hidden,
+ input[type="radio"].visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   white-space: nowrap;
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+ }
 
 /*catalog*/
 .main-header-logo {
@@ -341,7 +358,9 @@ body {
 }
 
 .description-list.flex-description {
-  display: flex;
+text-align: center;
+}
+
+.search {
   text-align: center;
-  justify-content: center;
 }
