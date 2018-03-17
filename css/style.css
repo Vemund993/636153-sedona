@@ -303,6 +303,7 @@ body {
   display: flex;
   flex-direction: row;
   text-align: center;
+  justify-content: center;
 }
 
 .main-slogan {
@@ -321,4 +322,10 @@ body {
 .description {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+}
+
+.main-header-logo {
+  display: flex;
+  justify-content: center;
 }
