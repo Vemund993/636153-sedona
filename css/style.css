@@ -118,6 +118,10 @@ body {
 }
 
 /*catalog*/
+.main-header-logo {
+  display: flex;
+  justify-content: center;
+}
 
 .select-pool {
   font-size: 14px;
@@ -328,9 +332,16 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  text-align: center;
 }
 
-.main-header-logo {
+.search-form {
   display: flex;
+  justify-content: center;
+}
+
+.description-list.flex-description {
+  display: flex;
+  text-align: center;
   justify-content: center;
 }
