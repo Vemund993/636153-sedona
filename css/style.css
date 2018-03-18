@@ -79,25 +79,31 @@ body {
   background-repeat: no-repeat;
 }
 
+.description-item {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 160px;
+  padding-bottom: 90px;
+  display: inline;
+}
+
 .description-item.description-item-housing {
   background-image: url("../img/icon-1.svg");
   background-repeat: no-repeat;
+  background-position: right 162px top 60px;
 }
+
 
 .description-item.description-item-food {
   background-image: url("../img/icon-3.svg");
   background-repeat: no-repeat;
-
-}
-
-.description-item {
-  display: flex;
-  justify-content: space-between;
+  background-position: right 162px top 60px;
 }
 
 .description-item.description-item-souveniers {
   background-image: url("../img/icon-2.svg");
   background-repeat: no-repeat;
+  background-position: right 162px top 60px;
 }
 
 .search-form-calendar {
