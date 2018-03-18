@@ -82,22 +82,22 @@ body {
 .description-item.description-item-housing {
   background-image: url("../img/icon-1.svg");
   background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
 }
 
 .description-item.description-item-food {
   background-image: url("../img/icon-3.svg");
   background-repeat: no-repeat;
+
+}
+
+.description-item {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .description-item.description-item-souveniers {
   background-image: url("../img/icon-2.svg");
   background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
 }
 
 .search-form-calendar {
@@ -143,11 +143,7 @@ body {
   text-align: center;
   display: flex;
   justify-content: space-between;
-
-  .footer-social {
-    list-style:
-  }
- }
+}
 
 /*catalog*/
 .main-header-logo {
