@@ -101,8 +101,8 @@ body {
 .description-item {
   display: flex;
   justify-content: space-between;
-  padding-top: 160px;
-  padding-bottom: 90px;
+  padding-top: 145px;
+  padding-bottom: 75px;
   display: inline;
 }
 
@@ -111,12 +111,22 @@ body {
 }
 
 .description-item p {
-  padding-left: 50px;
-  padding-right: 50px;
+  font-family: inherit;
+  font-size: 14px;
+  color: #333333;
+  padding-left: 95px;
+  padding-right: 95px;
 }
 
 .description-grey {
   background-color: #eeeeee;
+  height: 255px;
+  padding-top: 65px;
+}
+
+.description-grey p {
+  padding-left: 95px;
+  padding-right: 95px;
 }
 
 .advanced {
