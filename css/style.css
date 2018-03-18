@@ -72,6 +72,13 @@ body {
   margin-right: auto;
 }
 
+.intro {
+  width: 647px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .advanced-list {
   background-image: url("../img/blue-1.jpg");
   background-repeat: no-repeat;
@@ -153,6 +160,10 @@ body {
   background-image: url("../img/icon-2.svg");
   background-repeat: no-repeat;
   background-position: left 155px top 59px;
+}
+
+.search {
+  background-color: #ffffff;
 }
 
 .search-form-calendar {
@@ -407,14 +418,6 @@ body {
 }
 
 /*Сетка*/
-
-
-.intro {
-  width: 647px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 
 .search-form {
