@@ -18,6 +18,10 @@ body {
   margin-right: auto;
 }
 
+.main-navigation {
+  position: relative;
+}
+
 .site-navigation {
   list-style: none;
   background-color: #ffffff;
@@ -62,21 +66,36 @@ body {
   line-height: 1.857;
 }
 
+.main-slogan {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .advanced-list {
   background-image: url("../img/blue-1.jpg");
   background-repeat: no-repeat;
 
-  fot-size: 14px;
+  fot-size: 21px;
   font-family: inherit;
   color: #ffffff;
   text-transform: uppercase;
   line-height: 1;
+  padding-top: 50px;
+  padding-right: 60px;
+  padding-left: 80px;
 }
 
 .main-slogan {
   background-image: url("../img/main-poster.png");
   background-position: top center;
   background-repeat: no-repeat;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
 }
 
 .description-item {
@@ -87,9 +106,24 @@ body {
   display: inline;
 }
 
+.description-list {
+  text-align: center;
+}
+
 .description-item p {
   padding-left: 50px;
   padding-right: 50px;
+}
+
+.description-grey {
+  background-color: #eeeeee;
+}
+
+.advanced {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
 }
 
 .description-item.description-item-housing {
@@ -155,6 +189,21 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+.hashtag {
+  padding-top: 50px;
+  padding-left: 135px;
+  font-size: 21px;
+  font-family: inherit;
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.238;
+  text-align: center;
+  position: absolute;
+}
+
+
 
 /*catalog*/
 .main-header-logo {
@@ -348,22 +397,7 @@ body {
 }
 
 /*Сетка*/
-.main-navigation {
-  position: relative;
-}
 
-.advanced{
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  justify-content: center;
-}
-
-.main-slogan {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .intro {
   width: 647px;
@@ -372,21 +406,14 @@ body {
   margin-right: auto;
 }
 
-.description {
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-}
 
 .search-form {
   display: flex;
   justify-content: center;
 }
 
-.description-list {
-text-align: center;
-}
-
 .search-title {
+  padding-top: 60px;
+  padding-bottom: 40px;
   text-align: center;
 }
