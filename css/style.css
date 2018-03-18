@@ -87,6 +87,11 @@ body {
   display: inline;
 }
 
+.description-item p {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 .description-item.description-item-housing {
   background-image: url("../img/icon-1.svg");
   background-repeat: no-repeat;
@@ -97,13 +102,13 @@ body {
 .description-item.description-item-food {
   background-image: url("../img/icon-3.svg");
   background-repeat: no-repeat;
-  background-position: right 162px top 60px;
+  background-position: right 172px top 60px;
 }
 
 .description-item.description-item-souveniers {
   background-image: url("../img/icon-2.svg");
   background-repeat: no-repeat;
-  background-position: right 162px top 60px;
+  background-position: left 155px top 59px;
 }
 
 .search-form-calendar {
