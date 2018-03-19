@@ -406,6 +406,7 @@ body {
 
  .hotel-list {
   flex-grow: 1;
+  display: flex;
  }
 
  .hotel-item {
@@ -416,6 +417,7 @@ body {
   text-transform: uppercase;
   line-height: 1.238;
   margin-top: 0;
+  width: 100%;
 }
 
 .hotel-name {
