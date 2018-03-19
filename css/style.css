@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
   color: #000000;
@@ -18,6 +18,10 @@ body {
   margin-right: auto;
 }
 
+.main-header-logo {
+  position: absolute;
+}
+
 .main-navigation {
   position: relative;
 }
@@ -25,6 +29,8 @@ body {
 .site-navigation {
   list-style: none;
   background-color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
 
   display: flex;
   justify-content: space-between;
@@ -172,6 +178,12 @@ body {
   padding-top: 60px;
   padding-bottom: 40px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-form {
+  width: 574px;
 }
 
 .search-form h2 {
@@ -325,6 +337,7 @@ body {
 .sort-list {
   list-style: none;
   text-decoration: none;
+  display: inline-flex;
 }
 
 .sort-item {
@@ -364,12 +377,10 @@ body {
   border-bottom: 0;
 }
 
-
-.btn-up {
-  background-image: url("../img/icon-up-dir.svg");
-  background-repeat: no-repeat;
-}
-
+ .hotel {
+  display: flex;
+  justify-content: space-between;
+ }
 
  .hotel-item {
   font-size: 21px;
