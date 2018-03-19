@@ -11,6 +11,10 @@ body {
   background-color: #f2f2f2;
 }
 
+img {
+  display: block;
+
+}
 .main-wrapper {
   background-color: #ffffff;
   width: 1200px;
