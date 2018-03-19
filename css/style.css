@@ -186,9 +186,12 @@ body {
 }
 
 .search-form {
-  width: 574px;
-  margin-left: auto;
-  margin-right: auto;
+  position: absolute;
+  background-color: #ffffff;
+  width: 568px;
+  margin-left: 315px;
+  min-height: 395px;
+
 }
 
 .search-form h2 {
@@ -205,6 +208,7 @@ body {
 .map {
   display: flex;
   justify-content: center;
+  padding-top: 85px;
 }
 
 .appointment .button {
