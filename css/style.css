@@ -176,15 +176,14 @@ body {
 
 .search-form h2 {
   color: #ffffff;
+  text-align: center;
   background-color: #766357;
   width: 568px;
   height: 86px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.search-form-calendar {
-  background-image: url("../img/calendar.svg");
-  background-repeat: no-repeat;
-}
 
 .map {
   display: flex;
@@ -250,6 +249,16 @@ body {
   list-style: none;
   display: flex;
 }
+
+.footer-copyright-html {
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  line-height: 1.857;
+}
+
 
 
 
@@ -477,4 +486,9 @@ body {
 .sort {
   display: flex;
 
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
 }
