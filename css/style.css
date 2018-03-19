@@ -292,6 +292,7 @@ body {
 
 
 /*catalog*/
+
 .main-header-logo {
   display: flex;
   justify-content: center;
@@ -399,13 +400,22 @@ body {
   justify-content: space-between;
  }
 
+ .hotel-img {
+  margin-left: 73px;
+ }
+
+ .hotel-list {
+  flex-grow: 1;
+ }
+
  .hotel-item {
-  font-size: 21px;
+  font-size: 14px;
   font-family: inherit;
   color: #000000;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.238;
+  margin-top: 0;
 }
 
 .hotel-name {
