@@ -174,9 +174,21 @@ body {
   text-align: center;
 }
 
+.search-form h2 {
+  color: #ffffff;
+  background-color: #766357;
+  width: 568px;
+  height: 86px;
+}
+
 .search-form-calendar {
   background-image: url("../img/calendar.svg");
   background-repeat: no-repeat;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
 }
 
 .appointment .button {
@@ -245,6 +257,16 @@ body {
 .main-header-logo {
   display: flex;
   justify-content: center;
+}
+
+.options {
+  border: none;
+  color: #ffffff;
+}
+
+.limit {
+  border: none;
+  color: #ffffff;
 }
 
 .select-pool {
@@ -434,7 +456,7 @@ body {
 
 /*Сетка*/
 
-.search-form {
+.search-form-row {
   display: flex;
   justify-content: center;
 }
