@@ -11,10 +11,6 @@ body {
   background-color: #f2f2f2;
 }
 
-img {
-  display: block;
-
-}
 .main-wrapper {
   background-color: #ffffff;
   width: 1200px;
@@ -156,6 +152,10 @@ img {
   flex-direction: row;
   text-align: center;
   justify-content: center;
+}
+
+.advanced-photo img {
+  display: block;
 }
 
 .description-item.description-item-housing {
