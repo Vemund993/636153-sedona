@@ -534,3 +534,9 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
+.search-type {
+  display: flex;
+  padding-left: 73px;
+  padding-right: 73px;
+}
