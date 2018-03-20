@@ -519,10 +519,6 @@ body {
   justify-content: space-between;
 }
 
-.found {
-  text-align: left;
-  padding-left: 73px;
-}
 
 .sort {
   display: flex;
