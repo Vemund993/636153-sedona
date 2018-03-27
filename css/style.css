@@ -293,17 +293,11 @@ body {
 }
 
 .hashtag {
-  padding-top: 50px;
-  padding-left: 135px;
   font-size: 21px;
-  font-family: inherit;
   color: #000000;
   font-weight: bold;
   text-transform: uppercase;
-  line-height: 1.238;
   text-align: center;
-  position: absolute;
-  width: 33.33%;
 }
 
 .footer-list {
