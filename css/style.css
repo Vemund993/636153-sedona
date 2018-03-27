@@ -226,8 +226,12 @@ body {
   width: 568px;
   margin-left: 315px;
   min-height: 395px;
-
+  padding-top: 55px;
+  padding-right: 36px;
+  padding-bottom: 58px;
+  padding-left: 58px;
 }
+
 
 .search-form h2 {
   color: #ffffff;
@@ -237,6 +241,7 @@ body {
   height: 86px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0;
 }
 
 
