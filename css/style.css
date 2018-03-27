@@ -23,7 +23,7 @@ body {
   position: relative;
 }
 
-.main-slogan::after {
+.main-slogan::"after" {
   position: absolute;
    z-index: 20;
    left: 0;
@@ -153,8 +153,6 @@ body {
   width: 33.33%;
   padding-top: 140px;
   padding-right: 50px;
-  padding-bottom: 69px;
-  padding-left: 50px;
 }
 
 .description-list {
@@ -292,7 +290,6 @@ body {
   text-align: center;
   display: flex;
   justify-content: space-between;
-  width: 33.33%;
 }
 
 .hashtag {
