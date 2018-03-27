@@ -37,7 +37,7 @@ body {
 
 .intro h1 {
   font-size: 21px;
-  font-family: "PTSans";
+  font-family: inherit;
   color: #000000;
   font-weight: bold;
   text-transform: uppercase;
@@ -51,6 +51,7 @@ body {
 
 .main-navigation {
   position: relative;
+  padding-bottom: 24px;
 }
 
 .site-navigation {
