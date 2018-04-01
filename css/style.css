@@ -78,7 +78,9 @@ input[type="radio"].visually-hidden {
 .nav-item {
   vertical-align: middle;
   width: 239px;
+  text-align: center;
 }
+/*
 .nav-item:first-child {
   margin-right: 136px;
 }
@@ -91,14 +93,17 @@ input[type="radio"].visually-hidden {
 .nav-item:first-child,
 .nav-item:nth-child(2) {
   text-align: left;
-}
+}*/
 .nav-item:nth-child(4n+2) {
    margin-right: 244px;
+   margin-left: auto;
 }
+/*
 .nav-item:nth-child(3),
 .nav-item:last-child {
   text-align: right;
 }
+*/
 .main-navigation {
   color: #262626;
   background-color: #fff;
