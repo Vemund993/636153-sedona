@@ -294,7 +294,7 @@ input[type="radio"].visually-hidden {
   line-height: 26px;
   font-weight: 700;
   box-shadow: 8px 9px 22px 0px #9c9ea5;
-  width: 569px;
+  max-width: 569px;
 }
 .form-show {
   min-height: 395px;
