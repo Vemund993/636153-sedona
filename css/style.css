@@ -485,11 +485,11 @@ a.button-reservation:active {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  min-height: 471px;
+  min-height: 598px;
 }
 .map iframe {
   width: 100%;
-  min-height: 471px;
+  min-height: 598px;
   border: 0;
 }
 .main-footer {
