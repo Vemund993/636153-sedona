@@ -750,7 +750,7 @@ a.button-reservation:active {
 .sort-part-second {
   display: flex;
   align-items: center;
-
+  margin-right: 40px;
   margin-left: 47px;
 }
 .sort-part-third {
