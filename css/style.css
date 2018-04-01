@@ -499,7 +499,7 @@ a.button-reservation:active {
   padding-top: 32px;
   padding-bottom: 36px;
 }
-.footer-absolute .main-footer {
+.footer-absolute{
   position: absolute;
   width: 100%;
   z-index: 2;
