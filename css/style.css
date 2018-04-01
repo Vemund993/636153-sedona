@@ -81,30 +81,10 @@ input[type="radio"].visually-hidden {
   width: 239px;
   text-align: center;
 }
-/*
-.nav-item:first-child {
-  margin-right: 136px;
-}
-.nav-item:nth-child(2) {
-  margin-right: 359px;
-}
-.nav-item:nth-child(3) {
-  margin-right: 138px;
-}
-.nav-item:first-child,
-.nav-item:nth-child(2) {
-  text-align: left;
-}*/
 .nav-item:nth-child(4n+2) {
    margin-right: 244px;
    margin-left: auto;
 }
-/*
-.nav-item:nth-child(3),
-.nav-item:last-child {
-  text-align: right;
-}
-*/
 .main-navigation {
   color: #262626;
   background-color: #fff;
