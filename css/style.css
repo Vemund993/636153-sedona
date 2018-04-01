@@ -741,6 +741,8 @@ a.button-reservation:active {
   width: 278px;
   justify-content: space-between;
   margin-left: 2px;
+  width: 770px;
+  justify-content: flex-start;
 }
 .sort-item {
   margin-left: 35px;
@@ -748,7 +750,7 @@ a.button-reservation:active {
 .sort-part-second {
   display: flex;
   align-items: center;
-  margin-right: 535px;
+
   margin-left: 47px;
 }
 .sort-part-third {
