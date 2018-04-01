@@ -506,7 +506,7 @@ a.button-reservation:active {
   bottom: 0;
   left: 0;
   right: 0;
-  opacity: .9;
+  opacity: 0.9;
 }
 .social-button a {
   display: flex;
