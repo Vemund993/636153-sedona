@@ -25,7 +25,6 @@ body {
   background-color: #f2f2f2;
 }
 a {
-  display: block;
   padding: 0;
   margin: 0;
   text-decoration: none;
@@ -267,6 +266,7 @@ input[type="radio"].visually-hidden {
   position: absolute;
   padding-left: 55px;
   padding-right: 55px;
+  padding: 55px;
   left: 315px;
   height: 0;
   overflow: hidden;
@@ -356,12 +356,12 @@ input[type="radio"].visually-hidden {
 }
 .date-race {
   position: relative;
-  margin-top: 55px;
-  margin-lfet: 21px;
+  margin-left: 21px;
+  margin-bottom: 28px;
 }
 .date-departure {
   position: relative;
-  margin-top: 28px;
+  margin-bottom: 28px;
 }
 .date-race input,
 .date-departure input {
@@ -461,6 +461,7 @@ a.button-reservation:active {
 }
 .map {
   background-image: url(../img/map.jpg);
+  background-color: #f2f2f2;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -477,7 +478,7 @@ a.button-reservation:active {
   justify-content: space-around;
   align-items: center;
   align-self: auto;
-  padding-top: 32px;
+  padding-top: 36px;
   padding-bottom: 36px;
 }
 .footer-absolute {
