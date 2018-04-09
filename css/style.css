@@ -29,12 +29,6 @@ a {
   margin: 0;
   text-decoration: none;
 }
-ul,
-li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
@@ -264,9 +258,6 @@ input[type="radio"].visually-hidden {
 }
 .interesting-form {
   position: absolute;
-  padding-left: 55px;
-  padding-right: 55px;
-  padding: 55px;
   left: 315px;
   height: 0;
   overflow: hidden;
@@ -279,6 +270,7 @@ input[type="radio"].visually-hidden {
 }
 .form-show {
   min-height: 395px;
+  padding: 55px;
 }
 .interesting h2 {
   margin-top: 50px;
@@ -356,7 +348,6 @@ input[type="radio"].visually-hidden {
 }
 .date-race {
   position: relative;
-  margin-left: 21px;
   margin-bottom: 28px;
 }
 .date-departure {
